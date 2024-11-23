@@ -1,0 +1,19 @@
+html {
+    text-shadow: 0px 1px #000000;
+}
+
+@font-face {
+    font-family: "Pixel";
+    src: url(Fonts/Tiny5/Tiny5-Regular.ttf);
+}
+
+body {
+    background-image: url(Image/textureBackground.png);
+    background-size: 32px 32px;
+    font-family: Pixel;
+    color: #8da8e6;
+}
+
+center {
+    font-size: 32px;
+}
