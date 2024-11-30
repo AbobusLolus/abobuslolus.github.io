@@ -26,8 +26,8 @@ body {
 }
 
 .ImageBorder {
-    width: 300px;
-    padding: 24px;
+    width: 70%;
+    padding: 12px;
     border-image: url("Image/Border.png") 16/48px/0 repeat;
     background-color: #272744;
     image-rendering: pixelated;
