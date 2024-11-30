@@ -11,9 +11,13 @@ body {
     background-image: url(Image/textureBackground.png);
     background-size: 32px 32px;
     font-family: Pixel;
-    color: #8da8e6;
+    color: #8995b1;
 }
 
 center {
     font-size: 32px;
+}
+
+.BioInfo {
+    font-size: 20px;
 }
