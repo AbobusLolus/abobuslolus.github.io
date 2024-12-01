@@ -1,2 +1,2 @@
 # abobuslolus.github.io
-lol
+My web for bio :3
