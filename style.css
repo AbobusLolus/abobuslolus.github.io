@@ -12,6 +12,7 @@ body {
     background-image: url(Image/textureBackground.png);
     image-rendering: pixelated;
     background-size: 32px 32px;
+    background-color: #272744;
     font-family: Pixel;
     color: #b5cbff;
     margin: 24px;
