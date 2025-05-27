@@ -1,20 +1,18 @@
 html {
-    text-shadow: 0px 4px #000000b0;
     padding: 12px;
 }
 
 @font-face {
-    font-family: "Pixel";
+    font-family: "comic";
     src: url(Fonts/Press_Start_2P/PressStart2P-Regular.ttf);
 }
 
 body {
-    background-image: url(Image/textureBackground.png);
     image-rendering: pixelated;
     background-size: 32px 32px;
-    background-color: #272744;
-    font-family: Pixel;
-    color: #b5cbff;
+    background-color: #000000;
+    font-family: comic;
+    color: #ffffff;
     margin: 24px;
 }
 
@@ -23,23 +21,23 @@ body {
 }
 
 .centerInfo {
-    color: #86a5ec;
+    color: #ffffff;
     font-size: 8px;
 }
 
 .ImageBorder {
     width: 90%;
     padding: 12px;
-    border-image: url("Image/Border.png") 16/48px/0 repeat;
-    background-color: #272744;
+    border-image: url("Image/Border.png") 16/16px/0 repeat;
+    background-color: #000000;
     image-rendering: pixelated;
 }
 
 center {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 p {
-    font-size: 12px;
+    font-size: 10px;
 }
 
