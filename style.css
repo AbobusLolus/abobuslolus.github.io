@@ -1,10 +1,13 @@
 html {
     padding: 12px;
+    font-size: 8px;
+    text-rendering:initial
 }
 
 @font-face {
     font-family: "comic";
     src: url(Fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+    ;
 }
 
 body {
@@ -16,25 +19,27 @@ body {
     margin: 24px;
 }
 
-.BioInfo {
-    font-size: 16px;
+.PageName {
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .centerInfo {
     color: #ffffff;
-    font-size: 8px;
+    font-size: 4px;
+    line-height: 16px;
 }
 
 .ImageBorder {
-    width: 90%;
-    padding: 12px;
-    border-image: url("Image/Border.png") 16/16px/0 repeat;
+    width: 100%;
+    padding: 4px;
+    border-image: url("Image/Border.png") 16/12px/0 repeat;
     background-color: #000000;
     image-rendering: pixelated;
 }
 
 center {
-    font-size: 24px;
+    font-size: 14px;
 }
 
 p {
