@@ -1,48 +1,40 @@
 html {
-    padding: 12px;
-    font-size: 8px;
+    padding: 4px 5%;
+    font-size: 14px;
     text-rendering:initial
 }
 
 @font-face {
-    font-family: "comic";
+    font-family: "pixel";
     src: url(Fonts/Press_Start_2P/PressStart2P-Regular.ttf);
-    ;
 }
 
 body {
     image-rendering: pixelated;
-    background-size: 32px 32px;
     background-color: #000000;
-    font-family: comic;
+    background-image: url("Image/BackgroundTexture.png");
+    background-size: 360px;
+    background-repeat: repeat;
+    font-family: pixel;
     color: #ffffff;
-    margin: 24px;
 }
 
-.PageName {
-    padding-left: 4px;
-    padding-right: 4px;
+.bottom {
+    align-self: flex-end;
 }
 
-.centerInfo {
-    color: #ffffff;
-    font-size: 4px;
-    line-height: 16px;
+.focus {
+    color: rgb(233, 209, 24);
+    text-shadow: #fc0 0px 0px 10px
 }
 
-.ImageBorder {
+.border {
     width: 100%;
-    padding: 4px;
-    border-image: url("Image/Border.png") 16/12px/0 repeat;
+    height: 1024px;
+    padding: 8px;
+    border-image: url("Image/Border.png") 16/32px/0 repeat;
     background-color: #000000;
-    image-rendering: pixelated;
+    image-rendering: prgb(0, 0, 0)d;
 }
 
-center {
-    font-size: 14px;
-}
-
-p {
-    font-size: 10px;
-}
 
